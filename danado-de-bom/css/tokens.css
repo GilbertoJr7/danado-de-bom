@@ -1,0 +1,15 @@
+/* Paleta e fontes, tiradas da logo. Mude as cores só aqui. */
+:root{
+  --preto:#000;          /* fundo da logo */
+  --fundo:#0F0B08;
+  --card:#1B130D;
+  --linha:#3A2A1D;
+  --creme:#F3E3BC;       /* letras DANADO */
+  --laranja:#F29A1E;     /* letras BOM */
+  --ferrugem:#C4501F;    /* lenço */
+  --marrom:#6B3A1A;      /* chapéu */
+  --suave:#B9A787;
+  --wpp:#25D366;
+  --display:"Alfa Slab One","Rockwell","Georgia",serif;
+  --corpo:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
