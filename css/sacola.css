@@ -50,3 +50,18 @@ fieldset{border:0}
 @media (max-width:600px){
   dialog{margin-bottom:0;border-radius:18px 18px 0 0;max-height:94dvh}
 }
+
+/* Adicionais */
+.adic-sub{color:var(--suave);font-size:.92rem}
+.adic-lista{list-style:none;display:grid;gap:8px;margin:12px 0 16px}
+.adic-linha{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 12px;border:1px solid var(--linha);border-radius:10px;background:var(--fundo)}
+.adic-linha.ativo{border-color:var(--laranja)}
+.adic-info{display:flex;flex-direction:column}
+.adic-nome{font-weight:600}
+.adic-preco{color:var(--laranja);font-weight:700;white-space:nowrap}
+.adic-ok{width:100%;background:var(--laranja);color:var(--preto);border:0;border-radius:12px;padding:15px;font-weight:700}
+.adic-ok:hover:not(:disabled){background:var(--creme)}
+.adic-ok:disabled{background:var(--linha);color:var(--suave);cursor:not-allowed}
+.adic-acoes{display:grid;gap:10px}
+.adic-sem{width:100%;background:transparent;color:var(--creme);border:1px solid var(--laranja);border-radius:12px;padding:14px;font-weight:700}
+.adic-sem:hover{background:rgba(242,154,30,.14)}

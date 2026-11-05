@@ -20,8 +20,6 @@
 </head>
 <body>
 
-
-
 <header class="topo">
   <img src="assets/img/logo.webp" alt="Danado de Bom: lanches, burgers e espetinhos" width="542" height="560">
   <p>Monte sua sacola e confirme o pedido pelo WhatsApp.</p>
@@ -117,6 +115,22 @@
         </button>
         <p class="aviso">O valor final e o tempo de entrega são confirmados pela loja no WhatsApp.</p>
       </form>
+    </div>
+  </div>
+</dialog>
+
+<!-- Adicionais -->
+<dialog id="personalizar" aria-labelledby="adic-nome">
+  <div class="sac-in">
+    <div class="sac-topo">
+      <h2 id="adic-nome"></h2>
+      <button class="fechar" type="button" id="adic-fechar" aria-label="Fechar">×</button>
+    </div>
+    <p class="adic-sub">Quer adicionar algo? (opcional)</p>
+    <ul class="adic-lista" id="adic-lista"></ul>
+    <div class="adic-acoes">
+      <button class="adic-ok" type="button" id="adic-confirmar">Escolha um adicional</button>
+      <button class="adic-sem" type="button" id="adic-sem">Sem adicionais</button>
     </div>
   </div>
 </dialog>

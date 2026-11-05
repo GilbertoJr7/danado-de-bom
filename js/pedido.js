@@ -10,7 +10,11 @@ const Pedido = {
       if (dados.ref) m += `*Referência:* ${dados.ref}\n`;
     }
     m += `\n*Itens:*\n`;
-    itens.forEach((i) => { m += `${i.qtd}x ${i.nome} (${formatarBRL(i.preco * i.qtd)})\n`; });
+    itens.forEach((i) => {
+      m += `${i.qtd}x ${i.nome} (${formatarBRL(i.preco * i.qtd)})\n`;
+      if (i.qtd > 1 && i.adicionais.length) m += `   (adicionais em cada unidade)\n`;
+      i.adicionais.forEach((a) => { m += `   + ${a.qtd > 1 ? a.qtd + "x " : ""}${a.nome} (${formatarBRL(a.preco * a.qtd)})\n`; });
+    });
     if (entrega) {
       m += `\n*Subtotal:* ${formatarBRL(valores.subtotal)}`;
       m += `\n*Taxa de entrega:* ${formatarBRL(valores.taxa)}`;

@@ -30,7 +30,7 @@ danado-de-bom/
 | Quero mudar…                    | Arquivo            |
 |---------------------------------|--------------------|
 | Número do WhatsApp, nome da loja, taxa de entrega | `js/config.js` |
-| Itens, preços, categorias       | `js/cardapio.js`   |
+| Itens, preços, categorias, adicionais | `js/cardapio.js` |
 | Cores e fontes                  | `css/tokens.css`   |
 | Horário, textos do topo e rodapé | `index.html`       |
 | Logo                            | `assets/img/logo.webp` |

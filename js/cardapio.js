@@ -4,6 +4,8 @@
   - imagem:  caminho da foto, ex.: "assets/img/produtos/x-bacon.webp".
              Deixe "" (vazio) para mostrar o espaço "Imagem em breve".
   - destaque: texto opcional para a etiqueta ao lado do nome
+  - adicionais (na categoria): lista de { nome, preco } oferecida em todos os itens dela.
+             Sem esse campo, o item entra direto na sacola.
   - id da categoria: sem espaços nem acentos (usado no menu de navegação)
   - o nome de cada produto precisa ser único (é a chave da sacola)
 */
@@ -11,6 +13,14 @@ const CARDAPIO = [
   {
     id: "hamburgueres",
     titulo: "Hambúrgueres",
+    // ATENÇÃO: nomes e preços abaixo são EXEMPLOS. Troque pelos adicionais reais da lanchonete.
+    adicionais: [
+      { nome: "Ovo", preco: 2.0 },
+      { nome: "Mussarela extra", preco: 3.0 },
+      { nome: "Calabresa", preco: 3.0 },
+      { nome: "Bacon", preco: 4.0 },
+      { nome: "Carne artesanal 120g extra", preco: 7.0 },
+    ],
     itens: [
       { nome: "X-Hambúrguer", preco: 12.99, imagem: "", descricao: "Pão selado na chapa, carne artesanal de 120g, presunto e mussarela." },
       { nome: "X-Salada", preco: 14.99, imagem: "", descricao: "Pão selado na chapa, carne artesanal de 120g, presunto, mussarela, tomate e alface." },
