@@ -34,22 +34,8 @@
       cat.itens.forEach((item) => {
         const art = el("article", "item");
 
-        const foto = el("div", item.imagem ? "foto" : "foto vazia");
-        if (item.imagem) {
-          const img = el("img");
-          img.src = item.imagem;
-          img.alt = item.nome;
-          img.loading = "lazy";
-          foto.append(img);
-        } else {
-          foto.append("Imagem em breve");
-        }
-
         const h3 = el("h3", null, item.nome);
         if (item.destaque) h3.append(" ", el("span", "tag", item.destaque));
-        const topo = el("div", "item-topo");
-        topo.append(h3, el("span", "preco", formatarBRL(item.preco)));
-
         const btn = el("button", "add", "Adicionar à sacola");
         btn.type = "button";
         btn.addEventListener("click", () => {
@@ -62,9 +48,11 @@
           }
         });
 
-        const corpo = el("div", "item-corpo");
-        corpo.append(topo, el("p", null, item.descricao), btn);
-        art.append(foto, corpo);
+        const info = el("div", "item-info");
+        info.append(h3, el("p", null, item.descricao));
+        const lado = el("div", "item-lado");
+        lado.append(el("span", "preco", formatarBRL(item.preco)), btn);
+        art.append(info, lado);
         grade.append(art);
       });
       sec.append(grade);

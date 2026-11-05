@@ -21,8 +21,7 @@ danado-de-bom/
 │   └── main.js           Liga tudo à tela
 └── assets/img/
     ├── logo.webp
-    ├── favicon.png
-    └── produtos/         Fotos dos itens (uma por produto)
+    └── favicon.png
 ```
 
 ## O que editar
@@ -34,7 +33,6 @@ danado-de-bom/
 | Cores e fontes                  | `css/tokens.css`   |
 | Horário, textos do topo e rodapé | `index.html`       |
 | Logo                            | `assets/img/logo.webp` |
-| Foto de um produto              | coloque o arquivo em `assets/img/produtos/` e preencha `imagem` em `js/cardapio.js` |
 
 O número deve ter só dígitos: `55` + DDD + número (ex.: `5582999999999`).
 
@@ -56,5 +54,4 @@ Como é um site estático, serve qualquer hospedagem gratuita: Netlify, Vercel, 
 
 - Forma de pagamento (Pix, cartão, dinheiro) no formulário
 - Taxa de entrega por bairro
-- Fotos dos itens
 - Aviso automático de loja aberta ou fechada pelo horário
