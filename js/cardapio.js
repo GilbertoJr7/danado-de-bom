@@ -38,13 +38,13 @@ const CARDAPIO = [
     id: "pasteis",
     titulo: "Pastéis",
     itens: [
-      { nome: "Pastel de Queijo", preco: 7.0, descricao: "Pastel frito com recheio de queijo." },
+      { nome: "Pastel de Queijo", preco: 7.50, descricao: "Pastel frito com recheio de queijo." },
       // CONFIRMAR com a lanchonete os ingredientes do recheio misto e completar a descrição.
-      { nome: "Pastel Misto", preco: 7.0, descricao: "Pastel frito com recheio misto." },
-      { nome: "Pastel de Frango", preco: 7.0, descricao: "Pastel frito com recheio de frango." },
-      { nome: "Pastel de Frango com Queijo", preco: 9.50, descricao: "Pastel frito recheado com frango e queijo." },
+      { nome: "Pastel Misto", preco: 7.50, descricao: "Pastel frito com recheio misto." },
+      { nome: "Pastel de Frango", preco: 7.50, descricao: "Pastel frito com recheio de frango." },
+      { nome: "Pastel de Frango com Queijo", preco: 8.50, descricao: "Pastel frito recheado com frango e queijo." },
       { nome: "Pastel Tudão", preco: 16.0, descricao: "Pastel especial com recheio completo de milho, tomate, cebola, queijo, calabresa, frango e presunto." },
-      { nome: "Pastel Cala-Queijo", preco: 9.0, descricao: "Pastel frito com recheio de calabresa e queijo." },
+      { nome: "Pastel Cala-Queijo", preco: 9.50, descricao: "Pastel frito com recheio de calabresa e queijo." },
       { nome: "Pastel Cala-Frango", preco: 10.50, descricao: "Pastel frito com recheio de calabresa e frango." },
       { nome: "Pastel Pizza", preco: 10.50, descricao: "Pastel especial com recheio de presunto,queijo,oregano,ketchup e tomate." },
       { nome: "Pastel Frango e Catupiry", preco: 11.50, descricao: "Pastel frito com recheio de frango e catupiry." },
