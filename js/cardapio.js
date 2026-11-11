@@ -42,12 +42,12 @@ const CARDAPIO = [
       // CONFIRMAR com a lanchonete os ingredientes do recheio misto e completar a descrição.
       { nome: "Pastel Misto", preco: 7.0, descricao: "Pastel frito com recheio misto." },
       { nome: "Pastel de Frango", preco: 7.0, descricao: "Pastel frito com recheio de frango." },
-      { nome: "Pastel de Frango com Queijo", preco: 8.0, descricao: "Pastel frito recheado com frango e queijo." },
-      { nome: "Pastel Tudão", preco: 15.0, descricao: "Pastel especial com recheio completo de milho, tomate, cebola, queijo, calabresa, frango e presunto." },
+      { nome: "Pastel de Frango com Queijo", preco: 9.50, descricao: "Pastel frito recheado com frango e queijo." },
+      { nome: "Pastel Tudão", preco: 16.0, descricao: "Pastel especial com recheio completo de milho, tomate, cebola, queijo, calabresa, frango e presunto." },
       { nome: "Pastel Cala-Queijo", preco: 9.0, descricao: "Pastel frito com recheio de calabresa e queijo." },
-      { nome: "Pastel Cala-Frango", preco: 9.50, descricao: "Pastel frito com recheio de calabresa e frango." },
-      { nome: "Pastel Pizza", preco: 10.0, descricao: "Pastel especial com recheio de presunto,queijo,oregano,ketchup e tomate." },
-      { nome: "Pastel Frango e Catupiry", preco: 10.99, descricao: "Pastel frito com recheio de frango e catupiry." },
+      { nome: "Pastel Cala-Frango", preco: 10.50, descricao: "Pastel frito com recheio de calabresa e frango." },
+      { nome: "Pastel Pizza", preco: 10.50, descricao: "Pastel especial com recheio de presunto,queijo,oregano,ketchup e tomate." },
+      { nome: "Pastel Frango e Catupiry", preco: 11.50, descricao: "Pastel frito com recheio de frango e catupiry." },
     ],
   },
   {
@@ -67,6 +67,10 @@ const CARDAPIO = [
       { nome: "Coca-Cola Lata", preco: 5.99, descricao: "Refrigerante Coca-Cola em lata." },
       { nome: "Fanta Lata", preco: 5.99, descricao: "Refrigerante Fanta em lata." },
       { nome: "Sprite Lata", preco: 5.99, descricao: "Refrigerante Sprite em lata." },
+      { nome: "Guaraná 1L", preco: 10.0, descricao: "Refrigerante Guaraná de 1L." },
+      { nome: "Coca-Cola 1L", preco: 12.0, descricao: "Refrigerante Coca-cola de 1L." },
+      { nome: "Hiran 1L", preco: 8.0, descricao: "Refrigerante Guaraná Hiran de 1L ." },
+      { nome: "Hiran 2L", preco: 11.0, descricao: "Refrigerante Guaraná Hiran de 2L ." },
     ],
   },
   {
